@@ -11,8 +11,8 @@ import { ParsedConfig } from "../models/config";
 const renderQuestionsArticleAlert = (parsedConfig: ParsedConfig): void => {
   const style =
     parsedConfig.coloredChatBorder === "true"
-      ? "border: 2px solid #f59a6b;"
-      : "background: #f59a6b;";
+      ? "border: 2px solid #d6eace;"
+      : "background: #d6eace;";
 
   $('.chat-line__body:contains("?")').closest(".chat-line__bubble").attr({
     style,
